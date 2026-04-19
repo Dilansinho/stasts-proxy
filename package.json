@@ -1,5 +1,22 @@
 {
-  "name": "stats-proxy",
+  "name": "statsbet-proxy",
   "version": "1.0.0",
-  "private": true
+  "description": "Proxy CORS para football-data.org - STATSBET",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "football",
+    "api",
+    "proxy",
+    "cors",
+    "statsbet"
+  ],
+  "author": "Dilan",
+  "license": "MIT"
 }
